@@ -17,7 +17,7 @@ const Items = ({setCartItems, cartItems, items}) => {
             <h2>Items</h2>
             <div className='items-container'>
                 {items.map((item) => (
-                    <button key={item.id} className='items-card' onClick={()=> handleAddToCart(item)}>
+                    <button key={item.id} className='items' onClick={()=> handleAddToCart(item)}>
                         <h3>{item.name}</h3>
                         <p>{item.price}</p>
                     </button>

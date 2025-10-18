@@ -1,6 +1,22 @@
-.categories-container {
+.categories-navbar {
     display: flex;
-    background-color: dodgerblue;
     flex-direction: column;
-    flex-wrap: nowrap;
+    background-color: lightgray;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+
+    .categories-container {
+        display: flex;
+        background-color: dodgerblue;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .categories-items {
+        padding: 30px;
+    }
 }
+
+
+

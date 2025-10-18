@@ -1,10 +1,10 @@
 [
-  { "id": 1, "name": "breads" },
-  { "id": 2, "name": "cakes" },
-  { "id": 3, "name": "mixtures" },
-  { "id": 4, "name": "cookies" },
-  { "id": 5, "name": "muffins" },
-  { "id": 6, "name": "cooldrinks" },
-  { "id": 7, "name": "birthday cakes" },
-  { "id": 8, "name": "candles" }
+  { "id": 1, "name": "Breads" },
+  { "id": 2, "name": "Cakes" },
+  { "id": 3, "name": "Mixtures" },
+  { "id": 4, "name": "Cookies" },
+  { "id": 5, "name": "Muffins" },
+  { "id": 6, "name": "Cooldrinks" },
+  { "id": 7, "name": "Birthday Cakes" },
+  { "id": 8, "name": "Birthday Items" }
 ]

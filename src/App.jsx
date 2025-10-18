@@ -6,7 +6,6 @@ import './styles/App.scss';
 import categories from './data/categories.json';
 import items from './data/items.json';
 
-
 function App() {
   const [cartItems, setCartItems] = useState([]);
   const [selectedCategoryId, setSelectedCategoryId] = useState(1);
@@ -14,10 +13,16 @@ function App() {
   const filteredItems = items.filter((item) => item.categoryId === selectedCategoryId);
 
   return (
-    <div className="grid-container">
-      <Categories categories={categories} setSelectedCategoryId={setSelectedCategoryId} />
-      <Items setCartItems={setCartItems} cartItems={cartItems} items={filteredItems}/>
-      <Cart cartItems={cartItems} setCartItems={setCartItems}/>
+    <div className="app-layout">
+      <div className="left-panel">
+        <Categories categories={categories} setSelectedCategoryId={setSelectedCategoryId} />
+      </div>
+      <div className="main-panel">
+        <Items setCartItems={setCartItems} cartItems={cartItems} items={filteredItems} />
+      </div>
+      <div className="right-panel">
+        <Cart cartItems={cartItems} setCartItems={setCartItems} />
+      </div>
     </div>
   );
 }
