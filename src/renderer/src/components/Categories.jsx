@@ -1,3 +1,5 @@
+import React from 'react'
+
 import './styles/Categories.scss';
 
 const Categories = ({ categories, setSelectedCategoryId }) => {

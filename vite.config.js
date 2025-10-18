@@ -1,8 +1,11 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "electron-vite";
 import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  server: {port: 3000}
+    publicDir: false,
+    main: {},
+    preload: {},
+    renderer: {
+        plugins: [react()]
+    }
 });

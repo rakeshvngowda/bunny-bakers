@@ -1,3 +1,5 @@
+import React from 'react'
+
 import "./styles/Items.scss";
 
 const Items = ({setCartItems, cartItems, items}) => {
