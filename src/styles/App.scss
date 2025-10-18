@@ -1,0 +1,6 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr; /* left, main, right */
+  grid-template-rows: 100vh; /* full height */
+  gap: 10px; /* optional gap between columns */
+}
