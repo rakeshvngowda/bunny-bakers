@@ -1,5 +1,5 @@
+import React from 'react';
 import './styles/Categories.scss';
-
 const Categories = ({ categories, setSelectedCategoryId }) => {
   return (
     <div className="categories-navbar">

@@ -1,0 +1,9 @@
+{
+    "restaurantName": "BUNNY BAKERS",
+    "address": {
+        "street":"No.1, 2nd Stage, 4th Main Road 1st phase",
+        "area": "Govindaraja Nagar Ward, Chandra Layout",
+        "city": "Bengaluru-560040"
+    },
+    "paymentMode": ["Cash", "Card", "UPI"]
+}

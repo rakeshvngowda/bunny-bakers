@@ -1,3 +1,4 @@
+import React from 'react';
 import "./styles/Items.scss";
 
 const Items = ({setCartItems, cartItems, items}) => {
@@ -19,7 +20,7 @@ const Items = ({setCartItems, cartItems, items}) => {
                 {items.map((item) => (
                     <button key={item.id} className='items' onClick={()=> handleAddToCart(item)}>
                         <h3>{item.name}</h3>
-                        <p>{item.price}</p>
+                        <p>{item.price} Rs/- {item.unit}</p>
                     </button>
             ))}
             </div>
